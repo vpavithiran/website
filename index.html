@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style_sympo.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body style="background-color:#d7daf6;">
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Pictures/logo ds.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="symposium.html">EVENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>BISHOP HEBER COLLEGE (Autonomous)<br>DEPARTMENT OF DATA SCIENCE</h1>
+            <p><br><b>A STATE LEVEL TECHNICAL SYMPOSIUM</b></P><br>
+
+            <a href="https://forms.gle/S4T1YS2FhrxyjhZv9" class="hero-btn red-btn">Click here to register!</a><br><br>
+                
+            <i class="fa fa-calendar"></i>  MARCH 6, 2024</p>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="coming">
+        <div class="row neat">
+        <h1>Analytixfest 2K24</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <img src="reg_portal_1.jpg">
+        </div>
+    </div>  
+    <div class="row">
+        <div class="about-col">
+            <h1></h1>     
+            <p></p>
+            <a href="symposium.html" class="hero-btn red-btn">EXPOLRE EVENTS</a>
+        </div>
+    </div>  
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Bishop Heber College, A great Institution of higher education set in beautiful surroundings, seeks to function through mutual love and respect and with efficiency and creativity, <br> catering to the educational needs of all, especially the poor, the needy and the under-privileged, inspired by the love of our Lord Jesus Christ.</p>
+    <div class="icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <!--<i class="fa fa-twitter"></i>-->
+        <a href="http://instagram.com/heber_datascience"><i class="fa fa-instagram"></i></a>
+         <!--<a href="https://www.linkedin.com/groups/13939670/"><i class="fa fa-linkedin"></i></a>-->
+         <a href="mailto:analytixfest2k23@gmail.com"> <i class="fa fa-envelope"></i> </a>
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
